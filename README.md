@@ -1,13 +1,22 @@
-> [!NOTE]
-> **Fork provenance.** This repository is retained under the CamCore GitHub account as a fork of [007revad/Transcode_for_x25](https://github.com/007revad/Transcode_for_x25). The current default branch contains no CamCore-specific implementation. Its presence does not indicate an active CamCore deployment, CamCore operational support or original CamCore authorship. Use the upstream project for product documentation and support. The upstream README continues below unchanged, and the repository's licence text remains unmodified.
-
 <!-- CAMCORE-REPOSITORY-BRANDING:START -->
 <p align="center">
   <a href="https://camcore.au">
-    <img src=".github/brand/camcore-repository-banner.svg" alt="CamCore" width="520">
+    <img src=".github/brand/camcore-repository-banner.png" alt="CamCore" width="640">
   </a>
 </p>
 <!-- CAMCORE-REPOSITORY-BRANDING:END -->
+
+> [!NOTE]
+> **Fork provenance.** This repository is a fork of [007revad/Transcode_for_x25](https://github.com/007revad/Transcode_for_x25), kept under the CamCore GitHub organisation. CamCore has changed only this note and the banner above. The script, package source and workflows are upstream's, unmodified. Having the fork here does not mean CamCore runs it, supports it or wrote it. Use the upstream project for documentation, releases and support. The upstream README continues below unchanged, and the licence text is unmodified.
+>
+> **Workflows.** The workflows in `.github/workflows` are upstream's. They run only when a release is published in this repository or someone starts them by hand. They were written for upstream's release process, and some steps call upstream's own repositories. CamCore does not publish releases from this fork, so they do not normally run here.
+>
+> **Syncing upstream.** The fork does not track upstream automatically. To bring it up to date, merge upstream `main` with a merge commit (not a squash or rebase), and keep this note and the banner:
+>
+> ```sh
+> git fetch https://github.com/007revad/Transcode_for_x25.git main
+> git merge FETCH_HEAD
+> ```
 
 # <img src="images/icon.png" width="70"> Transcode for x25
 
